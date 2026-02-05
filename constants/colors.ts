@@ -1,12 +1,42 @@
-// template
-const tintColorLight = "#2f95dc";
-
-export default {
+const Colors = {
   light: {
-    text: "#000",
-    background: "#fff",
-    tint: tintColorLight,
-    tabIconDefault: "#ccc",
-    tabIconSelected: tintColorLight,
+    background: '#F5F0EB',
+    surface: '#FFFFFF',
+    surfaceSecondary: '#FAF8F5',
+    text: '#1A1A1A',
+    textSecondary: '#6B6B6B',
+    textMuted: '#9B9B9B',
+    primary: '#E67E22',
+    primaryLight: '#F39C12',
+    accent: '#2C3E50',
+    border: '#E8E4E0',
+    borderLight: '#F0ECE8',
+    shadow: 'rgba(0, 0, 0, 0.08)',
+    polaroidBorder: '#FAFAFA',
+    polaroidShadow: 'rgba(0, 0, 0, 0.15)',
+    tint: '#E67E22',
+    tabIconDefault: '#9B9B9B',
+    tabIconSelected: '#E67E22',
+  },
+  dark: {
+    background: '#1A1A1A',
+    surface: '#2A2A2A',
+    surfaceSecondary: '#222222',
+    text: '#FFFFFF',
+    textSecondary: '#A0A0A0',
+    textMuted: '#6B6B6B',
+    primary: '#F39C12',
+    primaryLight: '#E67E22',
+    accent: '#ECF0F1',
+    border: '#3A3A3A',
+    borderLight: '#333333',
+    shadow: 'rgba(0, 0, 0, 0.3)',
+    polaroidBorder: '#FAFAFA',
+    polaroidShadow: 'rgba(0, 0, 0, 0.4)',
+    tint: '#F39C12',
+    tabIconDefault: '#6B6B6B',
+    tabIconSelected: '#F39C12',
   },
 };
+
+export default Colors;
